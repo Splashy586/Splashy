@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'starbornregular';
+    src: url('starborn-webfont.woff2') format('woff2'),
+         url('starborn-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+			}		
+			
+#wrapper	{ 
+			width: 90%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 30px;
+			background-color: white;
+			box-shadow: 7px 7px 7px #18a1f0;
+			}
+
+* 	{
+	box-sizing: border-box;
+	}
+	
+body	{
+		font-family: Verdana, Arial, sans-serif;
+		margin: 0;
+		background-color: #8cd9fa;
+		background-repeat: repeat;
+		}
+		
+dt		{
+		font-weight: bold;
+		color: #3ec3f7;
+		text-align: center;
+		font-family: sans-serif;
+		font-size: 45px;
+		}
+		
+dd		{
+		padding-top: 30px;
+		text-align: center;
+		font-family: sans-serif;
+		font-size: 25px;
+		color: #3ec3f7;
+		}
+		
+main	{
+		margin-left: 250px;
+		margin-right: 60px;
+		padding: 10px;
+		background-color: #FFFFFF;
+		padding-bottom: 50px;
+		}
+		
+header 	{ 
+		 background-image: url(media/yew.gif);	/*REQUIRED: image, 11-17-24*/
+         background-repeat: no-repeat;
+		 background-size: cover;
+		}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: comic sans ms, cursive;
+	font-size: 90px;
+	height: 8rem;
+	}
+
+h2	{
+	text-align: center;
+	font-family: trebuchet ms ,sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: #1d85db;
+	}
+
+form	{
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: auto;
+		color: #115c9e;
+		padding: 5em;
+		padding-right: 5em;
+		font-weight: bold;
+		background-image: url(media/screendot.jpg);		/*REQUIRED: image, 11-17-24*/
+		background-repeat: no-repeat;
+		background-size: cover;
+		border:3px dotted #5393ed;
+		margin: 1px 50px 10px;
+		margin-bottom: 1em;
+		flex-flow: column;
+		}
+		
+fieldset	{
+			display: inline-block; 
+			border: 5px solid white;
+			font-family: Arial, sans-serif;
+			margin: auto;
+			display: inline-block;
+			}
+select	{	
+			display: inline-block; 
+			border: 2px solid #115c9e;
+			margin: auto;
+		}
+
+legend 	{ 
+		font-family: Georgia, "Times New Roman", serif;
+		font-weight: bold;
+		}
+/*table*/
+table	{
+		margin-bottom: 1em;
+		margin-left: 100px;
+		padding-top: 30px;
+		border-collapse: collapse;
+		display: block;
+		text-align: center;
+		align-items: center;
+		color: #056bf0;
+		font-family: sans-serif, Verdana;
+		font-size: 20px;
+		font-weight: bold;
+		}
+		
+td, th 	{
+		padding: 0.5em;
+		border: 1px solid #40407a;
+		align-items: center;
+		}
+		
+tr:first-of-type 	{
+					background-color: #00a3e3; 
+					color: white 
+					}		
+		
+/* end table*/
+
+
+/* animal gallery */
+#gallery 	{ 
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+			}
+			
+img			{		
+			box-shadow: 5px 3px 2px #17a6e8;
+			}
+					
+.audiogall	{
+			width: 95%;
+			height: 80%;
+			display: flex;
+			justify-content: space-between;
+			padding: 5px;
+			}
+			
+#beluga		{
+			margin-left: 25px;
+			margin-right: 125px;
+			}
+			
+#fish		{
+			margin-right: 55px;
+			}
+		
+#whale		{
+			margin-left: 65px;
+			}
+			
+#otter		{
+			margin-left: 100px;
+			}
+			
+/* end animal gallery */
+
+
+#wel	{
+		text-align: center;
+		background: url(media/welll.png);	/*REQUIRED: image, 11-17-24*/
+		background-repeat: no-repeat;
+		height: 6.5em;
+		margin-left: 95px;
+		}
+	
+p	{
+	text-align: center;
+	margin-top: 1rem;
+	color: #3ec3f7;
+	font-size: 18px;
+	padding: 10px 50px 20px;
+	}
+
+
+nav {
+	color: #ffffff;
+	font-family:sans-serif;
+	font-size: 1.3rem;
+	float: left;
+	width: 15%;
+	height: 20%;
+	padding: 10px 40px;
+	border: 5px ridge #06aacf; /*REQUIRED: border, 11-17-24*/
+	margin: 1px 45px 5px; 
+	background-image: url(media/waves2.0.jpg);		/*REQUIRED: image, 11-17-24*/
+	
+	}
+	
+#img	{
+		float: right;
+		padding: 10px; 
+		border: 5px ridge #b0dfff;		
+		margin: auto; 
+		
+		}
+		
+figure 	{
+		display: flex;
+		flex-flow: column;
+		font-size: 10px;
+		max-width: 115px;
+		}
+
+/*music player*/
+.container	{
+			width: 25%;
+			height: 30%;
+			float: left;
+			background: #8ad4ff;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+			margin-left: 210px;
+			margin-right: 60px;
+			padding: 10px;
+			}
+			
+audio::-webkit-media-controls-panel	{
+									background-color: #d1f3ff;
+									}
+				
+h3	{
+	font-size: 10px;
+	font-weight: bold;
+	display: flex;
+	margin-left:20px;
+	text-align: justify;
+	color: #368dff;
+	}
+
+				
+				
+				
+ul{list-style-image: url(media/puffer.png); }		/*REQUIRED: image, 11-17-24*/
+	
+footer {
+		font-size: .70em; 
+		font-style: italic;
+		text-align: center;
+		background-image: url(media/stars.jpg);		/*REQUIRED: image, 11-17-24*/
+		clear: both; 
+		margin-top: 10px;
+		}
+		
